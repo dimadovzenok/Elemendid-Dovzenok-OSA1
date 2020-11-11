@@ -42,17 +42,17 @@
                 <x:String>Пайде</x:String>
             </Picker.Items>
         </Picker>
-        <Image Source=""
-               />
+
         <Entry 
             x:Name="text"
-            Placeholder="Write some text"
+            Placeholder="Информация про данный уезд"
             PlaceholderColor="Gray"
             WidthRequest="500"
             HeightRequest="400"
             VerticalTextAlignment="Start"
             HorizontalTextAlignment="Start"
             />
+        <Image x:Name="img" Source=""/>
     </StackLayout>
 
 </ContentPage>
