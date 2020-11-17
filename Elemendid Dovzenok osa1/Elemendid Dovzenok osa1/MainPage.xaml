@@ -4,55 +4,21 @@
              x:Class="Elemendid_Dovzenok_osa1.MainPage">
 
     <StackLayout>
-        <Picker x:Name="picker" SelectedIndexChanged="picker_SelectedIndexChanged" Title="Выберите уезд">
-            <Picker.Items>
-                <x:String>Валгамаа</x:String>
-                <x:String>Вильяндимаа</x:String>
-                <x:String>Вырумаа</x:String>
-                <x:String>Ида-Вирумаа</x:String>
-                <x:String>Йыгевамаа</x:String>
-                <x:String>Ляэне-Вирумаа</x:String>
-                <x:String>Ляэнемаа</x:String>
-                <x:String>Пылвамаа</x:String>
-                <x:String>Пярнумаа</x:String>
-                <x:String>Рапламаа</x:String>
-                <x:String>Сааремаа</x:String>
-                <x:String>Тартумаа</x:String>
-                <x:String>Харьюмаа</x:String>
-                <x:String>Хийумаа</x:String>
-                <x:String>Ярвамаа</x:String>
-            </Picker.Items>
-        </Picker>
-        <Picker x:Name="picker1" SelectedIndexChanged="picker1_SelectedIndexChanged" Title="Выберите город">
-            <Picker.Items>
-                <x:String>Валга</x:String>
-                <x:String>Вильянди</x:String>
-                <x:String>Выру</x:String>
-                <x:String>Йыхви</x:String>
-                <x:String>Йыгева</x:String>
-                <x:String>Раквере</x:String>
-                <x:String>Хапсалу</x:String>
-                <x:String>Пылва</x:String>
-                <x:String>Пярну</x:String>
-                <x:String>Рапла</x:String>
-                <x:String>Кууресаре</x:String>
-                <x:String>Тарту</x:String>
-                <x:String>Таллинн</x:String>
-                <x:String>Кярдла</x:String>
-                <x:String>Пайде</x:String>
-            </Picker.Items>
-        </Picker>
-
-        <Entry 
-            x:Name="text"
-            Placeholder="Информация про данный уезд"
-            PlaceholderColor="Gray"
-            WidthRequest="500"
-            HeightRequest="400"
-            VerticalTextAlignment="Start"
-            HorizontalTextAlignment="Start"
-            />
-        <Image x:Name="img" Source=""/>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
+        <Label FontSize="16" Padding="30,24,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Learn more at "/>
+                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
     </StackLayout>
 
 </ContentPage>
